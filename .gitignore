@@ -1,3 +1,18 @@
+##
+## GIT IGNORE for Eclipse
+##
+
+
+# Eclipse Core      
+.project
+/*.project
+
+/.settings
+
+# JDT-specific (Eclipse Java Development Tools)     
+.classpath
+
+# 
 .metadata
 bin/
 tmp/
@@ -33,6 +48,7 @@ local.properties
 
 # sbteclipse plugin
 .target
+/target/
 
 # Tern plugin
 .tern-project
