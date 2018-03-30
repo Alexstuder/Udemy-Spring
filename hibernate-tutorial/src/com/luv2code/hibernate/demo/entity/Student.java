@@ -80,7 +80,7 @@ public class Student {
 	public String toString() {
 		
 		
-		return "Student [id=" + id + ", firstname=" + firstName + ", lastName" + lastName + ", email=" + email + "]";
+		return "Student [id=" + id + ", firstname=" + firstName + ", lastName=" + lastName + ", email=" + email + "]";
 	}
 	
 	
