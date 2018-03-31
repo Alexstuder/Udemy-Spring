@@ -44,7 +44,7 @@ public class DeleteStudentDemo {
 			session.createQuery("delete from Student s where s.firstName ='Paul'").executeUpdate();
 			
 			
-            // Commit the Transactio			
+            // Commit the Transaction			
 			session.getTransaction().commit();
 			
 			System.out.println("Done!");

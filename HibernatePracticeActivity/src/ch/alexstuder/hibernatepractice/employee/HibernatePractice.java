@@ -1,8 +1,11 @@
 package ch.alexstuder.hibernatepractice.employee;
 
+import java.util.List;
+
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
+import org.hibernate.query.criteria.internal.compile.CriteriaQueryTypeQueryAdapter;
 import org.hibernate.sql.ordering.antlr.Factory;
 
 import ch.alexstuder.hibernatepractice.employee.model.Employee;
@@ -32,28 +35,43 @@ public class HibernatePractice {
 		session.save(employee5);
 
 		session.save(employee1);
-        session.getTransaction().commit();		
-		
+		session.getTransaction().commit();
+
 		// Retrieve an object by primary key
-        // Get a Session and begin
-//        session = factory.getCurrentSession();
-//        session.beginTransaction();
-//
-//        
-//        
-//        
-//        session.getTransaction().commit();		
-        
+		// Get a Session and begin
+		session = factory.getCurrentSession();
+		session.beginTransaction();
+		int id = 1;
+		Employee tempEployee = session.get(Employee.class, id);
+		
+		System.out.println(tempEployee);
+
+
 		// query object to find an employye for a given company
 
-		// delete an object by primary key
+		List<Employee> employeeList = session.createQuery("from Employee e where e.company ='ZKB'").getResultList();
+		
+		for (Employee currentEmployee : employeeList) {
+			
+			System.out.println(currentEmployee);
+		}
+		
+		session.getTransaction().commit();
+		
+		
+		session = factory.getCurrentSession();
+		session.beginTransaction();
 
+		// delete an object by primary key
+        session.delete(tempEployee);
+		session.getTransaction().commit();
 		
 		
-		//close facory
+		
+		// close factory
 		factory.close();
 		System.out.println("Done!");
-		
+
 	}
 
 }
