@@ -24,6 +24,7 @@ public class InstructorDetail {
     @Column(name="hobby")
 	private String hobby;
 
+    
     // create constructors
 	public InstructorDetail(String youtubechannels, String hobby) {
 		this.youtubechannels = youtubechannels;
