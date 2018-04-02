@@ -49,6 +49,9 @@ public class Instructor {
 	private List<Course> course;
 
 
+	
+	
+	
 	//get a constructor
 	public Instructor(String firstName, String lastName, String email) {
 		this.firstName = firstName;

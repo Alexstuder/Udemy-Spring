@@ -36,13 +36,15 @@ public class EagerLazyDemo {
 			
 			System.out.println("Mein Code : Instructor :" + instructor);
 			
+			System.out.println("Mein Code : Course :" + instructor.getCourse());
+			session.getTransaction().commit();
 			session.close();
 			
+			// Kann nach Close immernoch auf die Course zugegriffen werden , weil bereits einmal oben geladen
 			System.out.println("Mein Code : Course :" + instructor.getCourse());
 			
 			
 			//commit the transaction
-			session.getTransaction().commit();
 			
 			
 			System.out.println("Done!");
