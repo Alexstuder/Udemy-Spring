@@ -37,7 +37,7 @@ public class GetCourseAndReviewsDemo {
 			
 			// get the course
 			
-			int id = 12;
+			int id = 13;
 			
 			Course tempCourse = session.get(Course.class, id);
 			
@@ -49,10 +49,6 @@ public class GetCourseAndReviewsDemo {
 			// print the course reviews
 	       
 			System.out.println(tempCourse.getReviews());
-			
-			
-			
-			
 			
 			
 			//commit the transaction

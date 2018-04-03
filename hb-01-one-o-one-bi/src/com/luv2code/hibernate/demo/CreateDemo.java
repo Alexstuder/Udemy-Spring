@@ -41,7 +41,7 @@ public class CreateDemo {
 			// save the instructor
 			session.save(myInstructor);
 
-			InstructorDetail tempInstructorDetail = session.get(InstructorDetail.class, 5);
+			InstructorDetail tempInstructorDetail = session.get(InstructorDetail.class, 1);
 			
 			System.out.println(tempInstructorDetail);
 			System.out.println(tempInstructorDetail.getInstructor());

@@ -30,7 +30,7 @@ public class GetInstructorDetailDemo {
 			session.beginTransaction();
 			
 			// get the instructor detail object
-			int id = 2 ;
+			int id = 1;
 			InstructorDetail tempInstructorDetail = session.get(InstructorDetail.class, id);
 			// print the instructor detail
 			System.out.println(tempInstructorDetail);

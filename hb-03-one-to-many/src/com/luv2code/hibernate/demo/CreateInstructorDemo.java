@@ -29,29 +29,20 @@ public class CreateInstructorDemo {
 		
 		try {
 			
+			// Create the Objects
+			Instructor myInstructor = new Instructor("Chad", "Smith", "chad@smith.com");
+            // Create Details			
+			InstructorDetail myInstructorDetail = new InstructorDetail("www.youtube.com/Drums", "Drums");
+			
+			//associate the Objects
+             myInstructor.setInstructorDetail(myInstructorDetail);			
+			
             // start a transaction
 			session.beginTransaction();
+			
+			// save the instructor
+			session.save(myInstructor);
 
-			
-            // get the instructor from db
-			int id = 1;
-			Instructor tempInstructor = session.get(Instructor.class, id );
-			
-			// create some courses
-            Course course1 = new Course("Unity", tempInstructor);
-            Course course2 = new Course("Blender", tempInstructor);
-            Course course3 = new Course("Maya", tempInstructor);
-			
-			
-			//add courses to instructo
-			tempInstructor.getCourse().add(course1);
-			tempInstructor.getCourse().add(course2);
-			tempInstructor.getCourse().add(course3);
-			
-			//save the courses
-			session.save(course2);
-			session.save(course3);
-			
 		
 			
 			
