@@ -1,6 +1,5 @@
 package com.luv2code.aopdemo.aspect;
 
-import java.security.Timestamp;
 import java.util.List;
 import java.util.logging.Logger;
 
@@ -35,7 +34,23 @@ public class MyDemoLoggingAspect  {
 		
 		long start = System.currentTimeMillis();
 		
-		Object result = joinPoint.proceed();
+		Object result = null;
+		
+		try {
+			result = joinPoint.proceed();
+		} catch (Exception e) {
+
+			// log the exception
+			myLogger.warning(e.getMessage());
+			
+			// Solution Catch the solution ;do somw work and rethrow the exception !
+			// give the user a custom message
+			throw e;
+			
+			// Solution to overwrite the execption
+			// give the user a custom message
+			//result = "Major accident ! But no worries, your privat AOP helicopter is on the way!";
+		}
 		
 		long end = System.currentTimeMillis();
 		
