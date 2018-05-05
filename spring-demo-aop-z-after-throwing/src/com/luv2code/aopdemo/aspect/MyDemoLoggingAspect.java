@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.AfterReturning;
+import org.aspectj.lang.annotation.AfterThrowing;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.reflect.MethodSignature;
@@ -16,6 +17,20 @@ import com.luv2code.aopdemo.Account;
 @Component
 @Order(2)
 public class MyDemoLoggingAspect  {
+	
+	
+	@AfterThrowing(pointcut="execution(* com.luv2code.aopdemo.dao.AccountDAO.findAccounts(..))",throwing="theException")
+	public void afterThrowingFindAccountsAdvice(JoinPoint theJoinPoint, Throwable theException ) {
+		
+		//print out which method we are advising on 
+		String method = theJoinPoint.getSignature().toShortString();
+		System.out.println("\n=====>>> Exetuing @AfterThrowing on the method : " +method);
+		
+		
+		// log the exception
+		System.out.println("=====> Throwing  : "+ theException);
+		
+	}
 
 	// this is where we add all of our related advices for logging
     @Before("com.luv2code.aopdemo.aspect.LuvAopDeclarations.forDAOPackageNoGettesAndSetters()")

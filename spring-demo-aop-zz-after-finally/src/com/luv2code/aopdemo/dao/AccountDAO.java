@@ -16,7 +16,7 @@ public class AccountDAO {
 	
 	
 	
-	public List<Account> findAccounts(){
+	public List<Account> findAccounts(boolean tripWire){
 		
 		List<Account> accounts = new ArrayList<Account>();
 		
@@ -29,6 +29,11 @@ public class AccountDAO {
 		accounts.add(temp2);
 		accounts.add(temp3);
 		
+		
+		if (tripWire) {
+			throw new RuntimeException("This is a TripWire Exception");
+			
+		}
 		
 		return accounts;
 	}
