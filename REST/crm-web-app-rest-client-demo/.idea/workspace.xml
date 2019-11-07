@@ -1,0 +1,1711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="crm-web-app-rest-client-demo:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e75852ca-8728-40c8-9878-d08c304a8495" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../HibernatePracticeActivity/db/DropAndCreateAll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HibernatePracticeActivity/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HibernatePracticeActivity/lib/classmate-1.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HibernatePracticeActivity/lib/dom4j-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HibernatePracticeActivity/lib/hibernate-commons-annotations-5.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HibernatePracticeActivity/lib/hibernate-core-5.2.16.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HibernatePracticeActivity/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HibernatePracticeActivity/lib/jandex-2.0.3.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HibernatePracticeActivity/lib/javassist-3.22.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HibernatePracticeActivity/lib/jboss-logging-3.3.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HibernatePracticeActivity/lib/jboss-transaction-api_1.2_spec-1.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HibernatePracticeActivity/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HibernatePracticeActivity/lib/mysql-connector-java-5.1.46-bin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HibernatePracticeActivity/src/ch/alexstuder/hibernatepractice/employee/HibernatePractice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HibernatePracticeActivity/src/ch/alexstuder/hibernatepractice/employee/model/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HibernatePracticeActivity/src/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HibernatePracticeActivity/src/log4j.properties.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-crm-rest-demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-crm-rest-demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-crm-rest-demo/target/classes/META-INF/spring-crm-rest.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-crm-rest-demo/target/spring-crm-rest.war" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-crm-rest-demo/target/spring-crm-rest.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-bi/db/01-create-user.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-bi/db/02-student-tracker.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-bi/db/02_1 alter-student-tracker.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-bi/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-bi/lib/classmate-1.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-bi/lib/dom4j-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-bi/lib/hibernate-commons-annotations-5.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-bi/lib/hibernate-core-5.2.16.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-bi/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-bi/lib/jandex-2.0.3.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-bi/lib/javassist-3.22.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-bi/lib/jboss-logging-3.3.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-bi/lib/jboss-transaction-api_1.2_spec-1.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-bi/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-bi/lib/mysql-connector-java-5.1.46-bin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-bi/src/com/luv2code/hibernate/demo/CreateDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-bi/src/com/luv2code/hibernate/demo/DateUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-bi/src/com/luv2code/hibernate/demo/DeleteDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-bi/src/com/luv2code/hibernate/demo/DeleteInstructorDetailDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-bi/src/com/luv2code/hibernate/demo/GetInstructorDetailDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-bi/src/com/luv2code/hibernate/demo/entity/Instructor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-bi/src/com/luv2code/hibernate/demo/entity/InstructorDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-bi/src/com/luv2code/hibernate/demo/entity/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-bi/src/com/luv2code/jdbc/TestJDBC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-bi/src/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-bi/src/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-uni/db/01-create-user.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-uni/db/02-student-tracker.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-uni/db/02_1 alter-student-tracker.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-uni/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-uni/lib/classmate-1.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-uni/lib/dom4j-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-uni/lib/hibernate-commons-annotations-5.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-uni/lib/hibernate-core-5.2.16.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-uni/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-uni/lib/jandex-2.0.3.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-uni/lib/javassist-3.22.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-uni/lib/jboss-logging-3.3.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-uni/lib/jboss-transaction-api_1.2_spec-1.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-uni/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-uni/lib/mysql-connector-java-5.1.46-bin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-uni/src/com/luv2code/hibernate/demo/CreateDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-uni/src/com/luv2code/hibernate/demo/DateUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-uni/src/com/luv2code/hibernate/demo/DeleteDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-uni/src/com/luv2code/hibernate/demo/entity/Instructor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-uni/src/com/luv2code/hibernate/demo/entity/InstructorDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-uni/src/com/luv2code/hibernate/demo/entity/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-uni/src/com/luv2code/jdbc/TestJDBC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-uni/src/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-01-one-o-one-uni/src/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-03-one-to-many/db/01-create-user.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-03-one-to-many/db/02-student-tracker.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-03-one-to-many/db/02_1 alter-student-tracker.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-03-one-to-many/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-03-one-to-many/lib/classmate-1.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-03-one-to-many/lib/dom4j-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-03-one-to-many/lib/hibernate-commons-annotations-5.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-03-one-to-many/lib/hibernate-core-5.2.16.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-03-one-to-many/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-03-one-to-many/lib/jandex-2.0.3.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-03-one-to-many/lib/javassist-3.22.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-03-one-to-many/lib/jboss-logging-3.3.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-03-one-to-many/lib/jboss-transaction-api_1.2_spec-1.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-03-one-to-many/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-03-one-to-many/lib/mysql-connector-java-5.1.46-bin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-03-one-to-many/src/com/luv2code/hibernate/demo/CreateCourseDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-03-one-to-many/src/com/luv2code/hibernate/demo/CreateDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-03-one-to-many/src/com/luv2code/hibernate/demo/CreateInstructorDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-03-one-to-many/src/com/luv2code/hibernate/demo/DateUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-03-one-to-many/src/com/luv2code/hibernate/demo/DeleteCoursesDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-03-one-to-many/src/com/luv2code/hibernate/demo/DeleteDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-03-one-to-many/src/com/luv2code/hibernate/demo/DeleteInstructorDetailDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-03-one-to-many/src/com/luv2code/hibernate/demo/GetCoursesInstructorDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-03-one-to-many/src/com/luv2code/hibernate/demo/GetInstructorCoursesDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-03-one-to-many/src/com/luv2code/hibernate/demo/GetInstructorDetailDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-03-one-to-many/src/com/luv2code/hibernate/demo/entity/Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-03-one-to-many/src/com/luv2code/hibernate/demo/entity/Instructor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-03-one-to-many/src/com/luv2code/hibernate/demo/entity/InstructorDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-03-one-to-many/src/com/luv2code/hibernate/demo/entity/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-03-one-to-many/src/com/luv2code/jdbc/TestJDBC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-03-one-to-many/src/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-03-one-to-many/src/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-04-one-to-many-uni/db/01-create-user.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-04-one-to-many-uni/db/02-student-tracker.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-04-one-to-many-uni/db/02_1 alter-student-tracker.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-04-one-to-many-uni/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-04-one-to-many-uni/lib/classmate-1.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-04-one-to-many-uni/lib/dom4j-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-04-one-to-many-uni/lib/hibernate-commons-annotations-5.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-04-one-to-many-uni/lib/hibernate-core-5.2.16.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-04-one-to-many-uni/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-04-one-to-many-uni/lib/jandex-2.0.3.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-04-one-to-many-uni/lib/javassist-3.22.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-04-one-to-many-uni/lib/jboss-logging-3.3.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-04-one-to-many-uni/lib/jboss-transaction-api_1.2_spec-1.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-04-one-to-many-uni/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-04-one-to-many-uni/lib/mysql-connector-java-5.1.46-bin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-04-one-to-many-uni/src/com/luv2code/hibernate/demo/CreateCourseAndReviewsDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-04-one-to-many-uni/src/com/luv2code/hibernate/demo/CreateCoursesDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-04-one-to-many-uni/src/com/luv2code/hibernate/demo/CreateDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-04-one-to-many-uni/src/com/luv2code/hibernate/demo/CreateInstructorDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-04-one-to-many-uni/src/com/luv2code/hibernate/demo/DateUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-04-one-to-many-uni/src/com/luv2code/hibernate/demo/DeleteCourseAndReviewsDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-04-one-to-many-uni/src/com/luv2code/hibernate/demo/DeleteCoursesDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-04-one-to-many-uni/src/com/luv2code/hibernate/demo/DeleteDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-04-one-to-many-uni/src/com/luv2code/hibernate/demo/DeleteInstructorDetailDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-04-one-to-many-uni/src/com/luv2code/hibernate/demo/GetCourseAndReviewsDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-04-one-to-many-uni/src/com/luv2code/hibernate/demo/GetInstructorCoursesDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-04-one-to-many-uni/src/com/luv2code/hibernate/demo/GetInstructorDetailDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-04-one-to-many-uni/src/com/luv2code/hibernate/demo/entity/Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-04-one-to-many-uni/src/com/luv2code/hibernate/demo/entity/Instructor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-04-one-to-many-uni/src/com/luv2code/hibernate/demo/entity/InstructorDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-04-one-to-many-uni/src/com/luv2code/hibernate/demo/entity/Review.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-04-one-to-many-uni/src/com/luv2code/hibernate/demo/entity/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-04-one-to-many-uni/src/com/luv2code/jdbc/TestJDBC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-04-one-to-many-uni/src/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-04-one-to-many-uni/src/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-05-many-to-many/db/01-create-user.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-05-many-to-many/db/02-student-tracker.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-05-many-to-many/db/02_1 alter-student-tracker.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-05-many-to-many/db/create-db.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-05-many-to-many/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-05-many-to-many/lib/classmate-1.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-05-many-to-many/lib/dom4j-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-05-many-to-many/lib/hibernate-commons-annotations-5.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-05-many-to-many/lib/hibernate-core-5.2.16.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-05-many-to-many/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-05-many-to-many/lib/jandex-2.0.3.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-05-many-to-many/lib/javassist-3.22.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-05-many-to-many/lib/jboss-logging-3.3.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-05-many-to-many/lib/jboss-transaction-api_1.2_spec-1.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-05-many-to-many/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-05-many-to-many/lib/mysql-connector-java-5.1.46-bin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-05-many-to-many/src/com/luv2code/hibernate/demo/AddCoursesForMaryDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-05-many-to-many/src/com/luv2code/hibernate/demo/CreateCourseAndReviewsDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-05-many-to-many/src/com/luv2code/hibernate/demo/CreateCourseAndStudentsDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-05-many-to-many/src/com/luv2code/hibernate/demo/DateUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-05-many-to-many/src/com/luv2code/hibernate/demo/DeleteMaryStudentDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-05-many-to-many/src/com/luv2code/hibernate/demo/DeletePacManCourseDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-05-many-to-many/src/com/luv2code/hibernate/demo/GetCoursesForMaryDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-05-many-to-many/src/com/luv2code/hibernate/demo/entity/Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-05-many-to-many/src/com/luv2code/hibernate/demo/entity/Instructor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-05-many-to-many/src/com/luv2code/hibernate/demo/entity/InstructorDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-05-many-to-many/src/com/luv2code/hibernate/demo/entity/Review.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-05-many-to-many/src/com/luv2code/hibernate/demo/entity/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-05-many-to-many/src/com/luv2code/jdbc/TestJDBC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-05-many-to-many/src/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-05-many-to-many/src/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-eager-vs-lazy-demo/db/01-create-user.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-eager-vs-lazy-demo/db/02-student-tracker.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-eager-vs-lazy-demo/db/02_1 alter-student-tracker.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-eager-vs-lazy-demo/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-eager-vs-lazy-demo/lib/classmate-1.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-eager-vs-lazy-demo/lib/dom4j-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-eager-vs-lazy-demo/lib/hibernate-commons-annotations-5.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-eager-vs-lazy-demo/lib/hibernate-core-5.2.16.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-eager-vs-lazy-demo/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-eager-vs-lazy-demo/lib/jandex-2.0.3.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-eager-vs-lazy-demo/lib/javassist-3.22.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-eager-vs-lazy-demo/lib/jboss-logging-3.3.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-eager-vs-lazy-demo/lib/jboss-transaction-api_1.2_spec-1.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-eager-vs-lazy-demo/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-eager-vs-lazy-demo/lib/mysql-connector-java-5.1.46-bin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-eager-vs-lazy-demo/src/com/luv2code/hibernate/demo/CreateCoursesDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-eager-vs-lazy-demo/src/com/luv2code/hibernate/demo/CreateDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-eager-vs-lazy-demo/src/com/luv2code/hibernate/demo/CreateInstructorDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-eager-vs-lazy-demo/src/com/luv2code/hibernate/demo/DateUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-eager-vs-lazy-demo/src/com/luv2code/hibernate/demo/DeleteCoursesDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-eager-vs-lazy-demo/src/com/luv2code/hibernate/demo/DeleteDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-eager-vs-lazy-demo/src/com/luv2code/hibernate/demo/DeleteInstructorDetailDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-eager-vs-lazy-demo/src/com/luv2code/hibernate/demo/EagerLazyDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-eager-vs-lazy-demo/src/com/luv2code/hibernate/demo/FetchJoinDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-eager-vs-lazy-demo/src/com/luv2code/hibernate/demo/GetInstructorCoursesDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-eager-vs-lazy-demo/src/com/luv2code/hibernate/demo/GetInstructorDetailDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-eager-vs-lazy-demo/src/com/luv2code/hibernate/demo/entity/Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-eager-vs-lazy-demo/src/com/luv2code/hibernate/demo/entity/Instructor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-eager-vs-lazy-demo/src/com/luv2code/hibernate/demo/entity/InstructorDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-eager-vs-lazy-demo/src/com/luv2code/hibernate/demo/entity/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-eager-vs-lazy-demo/src/com/luv2code/jdbc/TestJDBC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-eager-vs-lazy-demo/src/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hb-eager-vs-lazy-demo/src/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-crm-rest-demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-crm-rest-demo/sql-scripts/01-create-user.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-crm-rest-demo/sql-scripts/02-customer-tracker.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-crm-rest-demo/src/main/java/com/luv2code/springdemo/config/DemoAppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-crm-rest-demo/src/main/java/com/luv2code/springdemo/config/MySpringMvcDispatcherServletInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-crm-rest-demo/src/main/java/com/luv2code/springdemo/dao/CustomerDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-crm-rest-demo/src/main/java/com/luv2code/springdemo/dao/CustomerDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-crm-rest-demo/src/main/java/com/luv2code/springdemo/entity/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-crm-rest-demo/src/main/java/com/luv2code/springdemo/rest/CustomerErrorResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-crm-rest-demo/src/main/java/com/luv2code/springdemo/rest/CustomerNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-crm-rest-demo/src/main/java/com/luv2code/springdemo/rest/CustomerRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-crm-rest-demo/src/main/java/com/luv2code/springdemo/rest/CustomerRestExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-crm-rest-demo/src/main/java/com/luv2code/springdemo/service/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-crm-rest-demo/src/main/java/com/luv2code/springdemo/service/CustomerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-crm-rest-demo/src/main/resources/persistence-mysql.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-crm-rest-demo/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/aspectjweaver-1.8.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-aop-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-aop-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-aop-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-aspects-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-aspects-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-aspects-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-beans-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-beans-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-beans-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-context-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-context-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-context-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-context-indexer-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-context-indexer-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-context-indexer-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-context-support-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-context-support-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-context-support-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-core-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-core-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-core-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-expression-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-expression-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-expression-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-instrument-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-instrument-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-instrument-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-jcl-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-jcl-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-jcl-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-jdbc-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-jdbc-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-jdbc-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-jms-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-jms-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-jms-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-messaging-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-messaging-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-messaging-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-orm-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-orm-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-orm-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-oxm-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-oxm-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-oxm-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-test-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-test-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-test-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-tx-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-tx-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-tx-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-web-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-web-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-web-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-webflux-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-webflux-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-webflux-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-webmvc-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-webmvc-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-webmvc-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-websocket-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-websocket-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/lib/spring-websocket-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/src/com/luv2code/aopdemo/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/src/com/luv2code/aopdemo/DemoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/src/com/luv2code/aopdemo/MainDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/src/com/luv2code/aopdemo/aspect/MyDemoLoggingAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/src/com/luv2code/aopdemo/dao/AccountDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations-combo/src/com/luv2code/aopdemo/dao/MembershipDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/aspectjweaver-1.8.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-aop-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-aop-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-aop-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-aspects-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-aspects-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-aspects-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-beans-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-beans-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-beans-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-context-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-context-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-context-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-context-indexer-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-context-indexer-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-context-indexer-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-context-support-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-context-support-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-context-support-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-core-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-core-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-core-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-expression-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-expression-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-expression-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-instrument-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-instrument-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-instrument-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-jcl-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-jcl-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-jcl-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-jdbc-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-jdbc-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-jdbc-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-jms-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-jms-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-jms-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-messaging-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-messaging-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-messaging-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-orm-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-orm-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-orm-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-oxm-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-oxm-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-oxm-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-test-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-test-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-test-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-tx-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-tx-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-tx-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-web-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-web-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-web-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-webflux-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-webflux-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-webflux-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-webmvc-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-webmvc-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-webmvc-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-websocket-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-websocket-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/lib/spring-websocket-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/src/com/luv2code/aopdemo/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/src/com/luv2code/aopdemo/DemoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/src/com/luv2code/aopdemo/MainDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/src/com/luv2code/aopdemo/aspect/MyDemoLoggingAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/src/com/luv2code/aopdemo/dao/AccountDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-declarations/src/com/luv2code/aopdemo/dao/MembershipDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/aspectjweaver-1.8.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-aop-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-aop-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-aop-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-aspects-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-aspects-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-aspects-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-beans-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-beans-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-beans-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-context-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-context-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-context-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-context-indexer-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-context-indexer-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-context-indexer-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-context-support-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-context-support-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-context-support-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-core-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-core-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-core-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-expression-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-expression-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-expression-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-instrument-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-instrument-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-instrument-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-jcl-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-jcl-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-jcl-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-jdbc-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-jdbc-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-jdbc-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-jms-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-jms-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-jms-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-messaging-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-messaging-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-messaging-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-orm-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-orm-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-orm-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-oxm-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-oxm-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-oxm-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-test-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-test-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-test-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-tx-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-tx-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-tx-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-web-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-web-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-web-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-webflux-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-webflux-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-webflux-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-webmvc-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-webmvc-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-webmvc-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-websocket-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-websocket-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/lib/spring-websocket-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/src/com/luv2code/aopdemo/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/src/com/luv2code/aopdemo/DemoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/src/com/luv2code/aopdemo/MainDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/src/com/luv2code/aopdemo/aspect/LuvAopDeclarations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/src/com/luv2code/aopdemo/aspect/MyApiAnalyticsAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/src/com/luv2code/aopdemo/aspect/MyCloudLogAsyncAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/src/com/luv2code/aopdemo/aspect/MyDemoLoggingAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/src/com/luv2code/aopdemo/dao/AccountDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-pointcut-order-aspects/src/com/luv2code/aopdemo/dao/MembershipDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/aspectjweaver-1.8.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-aop-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-aop-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-aop-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-aspects-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-aspects-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-aspects-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-beans-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-beans-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-beans-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-context-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-context-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-context-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-context-indexer-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-context-indexer-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-context-indexer-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-context-support-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-context-support-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-context-support-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-core-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-core-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-core-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-expression-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-expression-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-expression-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-instrument-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-instrument-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-instrument-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-jcl-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-jcl-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-jcl-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-jdbc-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-jdbc-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-jdbc-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-jms-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-jms-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-jms-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-messaging-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-messaging-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-messaging-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-orm-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-orm-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-orm-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-oxm-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-oxm-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-oxm-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-test-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-test-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-test-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-tx-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-tx-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-tx-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-web-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-web-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-web-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-webflux-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-webflux-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-webflux-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-webmvc-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-webmvc-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-webmvc-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-websocket-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-websocket-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/lib/spring-websocket-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/src/com/luv2code/aopdemo/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/src/com/luv2code/aopdemo/DemoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/src/com/luv2code/aopdemo/MainDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/src/com/luv2code/aopdemo/aspect/LuvAopDeclarations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/src/com/luv2code/aopdemo/aspect/MyApiAnalyticsAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/src/com/luv2code/aopdemo/aspect/MyCloudLogAsyncAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/src/com/luv2code/aopdemo/aspect/MyDemoLoggingAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/src/com/luv2code/aopdemo/dao/AccountDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-read-joinpoint/src/com/luv2code/aopdemo/dao/MembershipDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/aspectjweaver-1.8.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-aop-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-aop-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-aop-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-aspects-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-aspects-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-aspects-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-beans-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-beans-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-beans-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-context-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-context-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-context-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-context-indexer-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-context-indexer-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-context-indexer-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-context-support-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-context-support-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-context-support-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-core-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-core-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-core-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-expression-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-expression-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-expression-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-instrument-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-instrument-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-instrument-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-jcl-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-jcl-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-jcl-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-jdbc-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-jdbc-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-jdbc-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-jms-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-jms-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-jms-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-messaging-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-messaging-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-messaging-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-orm-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-orm-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-orm-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-oxm-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-oxm-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-oxm-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-test-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-test-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-test-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-tx-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-tx-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-tx-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-web-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-web-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-web-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-webflux-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-webflux-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-webflux-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-webmvc-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-webmvc-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-webmvc-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-websocket-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-websocket-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/lib/spring-websocket-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/src/com/luv2code/aopdemo/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/src/com/luv2code/aopdemo/AfterReturningDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/src/com/luv2code/aopdemo/DemoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/src/com/luv2code/aopdemo/MainDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/src/com/luv2code/aopdemo/aspect/LuvAopDeclarations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/src/com/luv2code/aopdemo/aspect/MyApiAnalyticsAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/src/com/luv2code/aopdemo/aspect/MyCloudLogAsyncAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/src/com/luv2code/aopdemo/aspect/MyDemoLoggingAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/src/com/luv2code/aopdemo/dao/AccountDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-returning/src/com/luv2code/aopdemo/dao/MembershipDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/aspectjweaver-1.8.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-aop-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-aop-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-aop-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-aspects-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-aspects-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-aspects-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-beans-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-beans-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-beans-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-context-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-context-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-context-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-context-indexer-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-context-indexer-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-context-indexer-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-context-support-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-context-support-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-context-support-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-core-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-core-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-core-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-expression-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-expression-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-expression-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-instrument-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-instrument-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-instrument-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-jcl-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-jcl-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-jcl-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-jdbc-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-jdbc-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-jdbc-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-jms-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-jms-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-jms-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-messaging-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-messaging-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-messaging-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-orm-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-orm-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-orm-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-oxm-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-oxm-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-oxm-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-test-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-test-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-test-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-tx-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-tx-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-tx-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-web-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-web-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-web-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-webflux-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-webflux-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-webflux-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-webmvc-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-webmvc-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-webmvc-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-websocket-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-websocket-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/lib/spring-websocket-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/src/com/luv2code/aopdemo/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/src/com/luv2code/aopdemo/AfterReturningDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/src/com/luv2code/aopdemo/AfterThrowingDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/src/com/luv2code/aopdemo/DemoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/src/com/luv2code/aopdemo/MainDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/src/com/luv2code/aopdemo/aspect/LuvAopDeclarations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/src/com/luv2code/aopdemo/aspect/MyApiAnalyticsAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/src/com/luv2code/aopdemo/aspect/MyCloudLogAsyncAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/src/com/luv2code/aopdemo/aspect/MyDemoLoggingAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/src/com/luv2code/aopdemo/dao/AccountDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-z-after-throwing/src/com/luv2code/aopdemo/dao/MembershipDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/aspectjweaver-1.8.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-aop-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-aop-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-aop-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-aspects-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-aspects-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-aspects-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-beans-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-beans-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-beans-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-context-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-context-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-context-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-context-indexer-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-context-indexer-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-context-indexer-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-context-support-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-context-support-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-context-support-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-core-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-core-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-core-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-expression-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-expression-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-expression-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-instrument-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-instrument-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-instrument-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-jcl-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-jcl-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-jcl-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-jdbc-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-jdbc-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-jdbc-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-jms-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-jms-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-jms-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-messaging-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-messaging-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-messaging-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-orm-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-orm-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-orm-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-oxm-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-oxm-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-oxm-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-test-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-test-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-test-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-tx-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-tx-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-tx-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-web-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-web-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-web-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-webflux-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-webflux-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-webflux-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-webmvc-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-webmvc-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-webmvc-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-websocket-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-websocket-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/lib/spring-websocket-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/src/com/luv2code/aopdemo/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/src/com/luv2code/aopdemo/AfterFinallyDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/src/com/luv2code/aopdemo/AfterReturningDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/src/com/luv2code/aopdemo/AfterThrowingDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/src/com/luv2code/aopdemo/DemoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/src/com/luv2code/aopdemo/MainDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/src/com/luv2code/aopdemo/aspect/LuvAopDeclarations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/src/com/luv2code/aopdemo/aspect/MyApiAnalyticsAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/src/com/luv2code/aopdemo/aspect/MyCloudLogAsyncAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/src/com/luv2code/aopdemo/aspect/MyDemoLoggingAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/src/com/luv2code/aopdemo/dao/AccountDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-after-finally/src/com/luv2code/aopdemo/dao/MembershipDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/aspectjweaver-1.8.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-aop-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-aop-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-aop-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-aspects-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-aspects-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-aspects-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-beans-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-beans-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-beans-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-context-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-context-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-context-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-context-indexer-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-context-indexer-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-context-indexer-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-context-support-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-context-support-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-context-support-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-core-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-core-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-core-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-expression-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-expression-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-expression-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-instrument-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-instrument-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-instrument-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-jcl-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-jcl-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-jcl-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-jdbc-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-jdbc-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-jdbc-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-jms-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-jms-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-jms-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-messaging-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-messaging-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-messaging-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-orm-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-orm-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-orm-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-oxm-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-oxm-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-oxm-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-test-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-test-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-test-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-tx-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-tx-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-tx-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-web-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-web-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-web-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-webflux-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-webflux-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-webflux-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-webmvc-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-webmvc-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-webmvc-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-websocket-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-websocket-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/lib/spring-websocket-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/src/com/luv2code/aopdemo/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/src/com/luv2code/aopdemo/AfterFinallyDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/src/com/luv2code/aopdemo/AfterReturningDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/src/com/luv2code/aopdemo/AfterThrowingDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/src/com/luv2code/aopdemo/AroundDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/src/com/luv2code/aopdemo/AroundWithLoggerDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/src/com/luv2code/aopdemo/DemoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/src/com/luv2code/aopdemo/MainDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/src/com/luv2code/aopdemo/aspect/LuvAopDeclarations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/src/com/luv2code/aopdemo/aspect/MyApiAnalyticsAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/src/com/luv2code/aopdemo/aspect/MyCloudLogAsyncAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/src/com/luv2code/aopdemo/aspect/MyDemoLoggingAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/src/com/luv2code/aopdemo/dao/AccountDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/src/com/luv2code/aopdemo/dao/MembershipDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around-with-logger/src/com/luv2code/aopdemo/service/TraficFortuneService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/aspectjweaver-1.8.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-aop-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-aop-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-aop-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-aspects-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-aspects-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-aspects-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-beans-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-beans-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-beans-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-context-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-context-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-context-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-context-indexer-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-context-indexer-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-context-indexer-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-context-support-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-context-support-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-context-support-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-core-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-core-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-core-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-expression-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-expression-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-expression-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-instrument-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-instrument-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-instrument-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-jcl-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-jcl-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-jcl-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-jdbc-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-jdbc-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-jdbc-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-jms-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-jms-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-jms-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-messaging-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-messaging-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-messaging-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-orm-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-orm-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-orm-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-oxm-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-oxm-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-oxm-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-test-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-test-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-test-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-tx-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-tx-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-tx-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-web-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-web-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-web-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-webflux-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-webflux-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-webflux-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-webmvc-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-webmvc-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-webmvc-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-websocket-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-websocket-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/lib/spring-websocket-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/src/com/luv2code/aopdemo/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/src/com/luv2code/aopdemo/AfterFinallyDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/src/com/luv2code/aopdemo/AfterReturningDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/src/com/luv2code/aopdemo/AfterThrowingDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/src/com/luv2code/aopdemo/AroundDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/src/com/luv2code/aopdemo/DemoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/src/com/luv2code/aopdemo/MainDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/src/com/luv2code/aopdemo/aspect/LuvAopDeclarations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/src/com/luv2code/aopdemo/aspect/MyApiAnalyticsAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/src/com/luv2code/aopdemo/aspect/MyCloudLogAsyncAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/src/com/luv2code/aopdemo/aspect/MyDemoLoggingAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/src/com/luv2code/aopdemo/dao/AccountDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/src/com/luv2code/aopdemo/dao/MembershipDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zz-around/src/com/luv2code/aopdemo/service/TraficFortuneService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/aspectjweaver-1.8.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-aop-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-aop-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-aop-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-aspects-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-aspects-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-aspects-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-beans-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-beans-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-beans-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-context-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-context-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-context-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-context-indexer-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-context-indexer-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-context-indexer-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-context-support-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-context-support-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-context-support-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-core-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-core-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-core-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-expression-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-expression-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-expression-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-instrument-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-instrument-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-instrument-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-jcl-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-jcl-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-jcl-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-jdbc-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-jdbc-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-jdbc-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-jms-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-jms-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-jms-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-messaging-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-messaging-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-messaging-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-orm-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-orm-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-orm-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-oxm-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-oxm-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-oxm-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-test-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-test-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-test-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-tx-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-tx-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-tx-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-web-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-web-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-web-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-webflux-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-webflux-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-webflux-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-webmvc-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-webmvc-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-webmvc-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-websocket-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-websocket-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/lib/spring-websocket-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/src/com/luv2code/aopdemo/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/src/com/luv2code/aopdemo/AfterFinallyDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/src/com/luv2code/aopdemo/AfterReturningDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/src/com/luv2code/aopdemo/AfterThrowingDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/src/com/luv2code/aopdemo/AroundDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/src/com/luv2code/aopdemo/AroundHandleExceptionDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/src/com/luv2code/aopdemo/AroundWithLoggerDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/src/com/luv2code/aopdemo/DemoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/src/com/luv2code/aopdemo/MainDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/src/com/luv2code/aopdemo/aspect/LuvAopDeclarations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/src/com/luv2code/aopdemo/aspect/MyApiAnalyticsAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/src/com/luv2code/aopdemo/aspect/MyCloudLogAsyncAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/src/com/luv2code/aopdemo/aspect/MyDemoLoggingAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/src/com/luv2code/aopdemo/dao/AccountDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/src/com/luv2code/aopdemo/dao/MembershipDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop-zzz-around-handle-exception/src/com/luv2code/aopdemo/service/TraficFortuneService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/aspectjweaver-1.8.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-aop-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-aop-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-aop-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-aspects-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-aspects-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-aspects-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-beans-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-beans-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-beans-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-context-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-context-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-context-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-context-indexer-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-context-indexer-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-context-indexer-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-context-support-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-context-support-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-context-support-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-core-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-core-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-core-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-expression-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-expression-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-expression-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-instrument-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-instrument-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-instrument-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-jcl-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-jcl-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-jcl-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-jdbc-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-jdbc-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-jdbc-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-jms-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-jms-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-jms-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-messaging-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-messaging-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-messaging-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-orm-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-orm-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-orm-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-oxm-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-oxm-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-oxm-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-test-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-test-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-test-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-tx-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-tx-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-tx-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-web-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-web-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-web-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-webflux-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-webflux-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-webflux-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-webmvc-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-webmvc-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-webmvc-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-websocket-5.0.4.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-websocket-5.0.4.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/lib/spring-websocket-5.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/src/com/luv2code/aopdemo/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/src/com/luv2code/aopdemo/DemoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/src/com/luv2code/aopdemo/MainDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/src/com/luv2code/aopdemo/aspect/MyDemoLoggingAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/src/com/luv2code/aopdemo/dao/AccountDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-demo-aop/src/com/luv2code/aopdemo/dao/MembershipDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-rest-demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-rest-demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-rest-demo/src/main/java/com/luve2code/springdemo/config/DemoAppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-rest-demo/src/main/java/com/luve2code/springdemo/config/MySpringMvcDispatcherServletInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-rest-demo/src/main/java/com/luve2code/springdemo/entity/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-rest-demo/src/main/java/com/luve2code/springdemo/rest/DemoRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-rest-demo/src/main/java/com/luve2code/springdemo/rest/StudentRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-rest-demo/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-01-base-app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-01-base-app/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-01-base-app/src/main/java/com/luv2code/springsecurity/demo/config/DemoAppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-01-base-app/src/main/java/com/luv2code/springsecurity/demo/config/MySpringMvcDispatcherServletInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-01-base-app/src/main/java/com/luv2code/springsecurity/demo/controller/DemoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-01-base-app/src/main/webapp/WEB-INF/view/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-01-base-app/src/test/java/com/luv2code/springsecurity/demo/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-02-basic-security/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-02-basic-security/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-02-basic-security/src/main/java/com/luv2code/springsecurity/demo/config/DemoAppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-02-basic-security/src/main/java/com/luv2code/springsecurity/demo/config/DemoSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-02-basic-security/src/main/java/com/luv2code/springsecurity/demo/config/MySpringMvcDispatcherServletInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-02-basic-security/src/main/java/com/luv2code/springsecurity/demo/config/SecurityWebApplicationInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-02-basic-security/src/main/java/com/luv2code/springsecurity/demo/controller/DemoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-02-basic-security/src/main/webapp/WEB-INF/view/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-02-basic-security/src/test/java/com/luv2code/springsecurity/demo/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-03-custom-login-form/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-03-custom-login-form/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-03-custom-login-form/src/main/java/com/luv2code/springsecurity/demo/config/DemoAppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-03-custom-login-form/src/main/java/com/luv2code/springsecurity/demo/config/DemoSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-03-custom-login-form/src/main/java/com/luv2code/springsecurity/demo/config/MySpringMvcDispatcherServletInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-03-custom-login-form/src/main/java/com/luv2code/springsecurity/demo/config/SecurityWebApplicationInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-03-custom-login-form/src/main/java/com/luv2code/springsecurity/demo/controller/DemoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-03-custom-login-form/src/main/java/com/luv2code/springsecurity/demo/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-03-custom-login-form/src/main/webapp/WEB-INF/view/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-03-custom-login-form/src/main/webapp/WEB-INF/view/plain-login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-03-custom-login-form/src/test/java/com/luv2code/springsecurity/demo/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-04-bootstrap-login-form/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-04-bootstrap-login-form/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-04-bootstrap-login-form/src/main/java/com/luv2code/springsecurity/demo/config/DemoAppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-04-bootstrap-login-form/src/main/java/com/luv2code/springsecurity/demo/config/DemoSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-04-bootstrap-login-form/src/main/java/com/luv2code/springsecurity/demo/config/MySpringMvcDispatcherServletInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-04-bootstrap-login-form/src/main/java/com/luv2code/springsecurity/demo/config/SecurityWebApplicationInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-04-bootstrap-login-form/src/main/java/com/luv2code/springsecurity/demo/controller/DemoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-04-bootstrap-login-form/src/main/java/com/luv2code/springsecurity/demo/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-04-bootstrap-login-form/src/main/webapp/WEB-INF/view/fancy-login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-04-bootstrap-login-form/src/main/webapp/WEB-INF/view/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-04-bootstrap-login-form/src/main/webapp/WEB-INF/view/plain-login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-04-bootstrap-login-form/src/test/java/com/luv2code/springsecurity/demo/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-05-logout/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-05-logout/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-05-logout/src/main/java/com/luv2code/springsecurity/demo/config/DemoAppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-05-logout/src/main/java/com/luv2code/springsecurity/demo/config/DemoSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-05-logout/src/main/java/com/luv2code/springsecurity/demo/config/MySpringMvcDispatcherServletInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-05-logout/src/main/java/com/luv2code/springsecurity/demo/config/SecurityWebApplicationInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-05-logout/src/main/java/com/luv2code/springsecurity/demo/controller/DemoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-05-logout/src/main/java/com/luv2code/springsecurity/demo/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-05-logout/src/main/webapp/WEB-INF/view/fancy-login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-05-logout/src/main/webapp/WEB-INF/view/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-05-logout/src/main/webapp/WEB-INF/view/plain-login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-05-logout/src/test/java/com/luv2code/springsecurity/demo/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-06-csrf/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-06-csrf/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-06-csrf/src/main/java/com/luv2code/springsecurity/demo/config/DemoAppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-06-csrf/src/main/java/com/luv2code/springsecurity/demo/config/DemoSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-06-csrf/src/main/java/com/luv2code/springsecurity/demo/config/MySpringMvcDispatcherServletInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-06-csrf/src/main/java/com/luv2code/springsecurity/demo/config/SecurityWebApplicationInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-06-csrf/src/main/java/com/luv2code/springsecurity/demo/controller/DemoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-06-csrf/src/main/java/com/luv2code/springsecurity/demo/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-06-csrf/src/main/webapp/WEB-INF/view/fancy-login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-06-csrf/src/main/webapp/WEB-INF/view/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-06-csrf/src/main/webapp/WEB-INF/view/plain-login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-06-csrf/src/test/java/com/luv2code/springsecurity/demo/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-07-user-roles/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-07-user-roles/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-07-user-roles/src/main/java/com/luv2code/springsecurity/demo/config/DemoAppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-07-user-roles/src/main/java/com/luv2code/springsecurity/demo/config/DemoSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-07-user-roles/src/main/java/com/luv2code/springsecurity/demo/config/MySpringMvcDispatcherServletInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-07-user-roles/src/main/java/com/luv2code/springsecurity/demo/config/SecurityWebApplicationInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-07-user-roles/src/main/java/com/luv2code/springsecurity/demo/controller/DemoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-07-user-roles/src/main/java/com/luv2code/springsecurity/demo/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-07-user-roles/src/main/webapp/WEB-INF/view/access-denied.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-07-user-roles/src/main/webapp/WEB-INF/view/fancy-login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-07-user-roles/src/main/webapp/WEB-INF/view/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-07-user-roles/src/main/webapp/WEB-INF/view/leaders.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-07-user-roles/src/main/webapp/WEB-INF/view/plain-login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-07-user-roles/src/main/webapp/WEB-INF/view/systems.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-07-user-roles/src/test/java/com/luv2code/springsecurity/demo/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-08-jdbc-plaintext/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-08-jdbc-plaintext/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-08-jdbc-plaintext/src/main/java/com/luv2code/springsecurity/demo/config/DemoAppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-08-jdbc-plaintext/src/main/java/com/luv2code/springsecurity/demo/config/DemoSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-08-jdbc-plaintext/src/main/java/com/luv2code/springsecurity/demo/config/MySpringMvcDispatcherServletInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-08-jdbc-plaintext/src/main/java/com/luv2code/springsecurity/demo/config/SecurityWebApplicationInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-08-jdbc-plaintext/src/main/java/com/luv2code/springsecurity/demo/controller/DemoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-08-jdbc-plaintext/src/main/java/com/luv2code/springsecurity/demo/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-08-jdbc-plaintext/src/main/resources/persistence-mysql.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-08-jdbc-plaintext/src/main/webapp/WEB-INF/view/access-denied.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-08-jdbc-plaintext/src/main/webapp/WEB-INF/view/fancy-login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-08-jdbc-plaintext/src/main/webapp/WEB-INF/view/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-08-jdbc-plaintext/src/main/webapp/WEB-INF/view/leaders.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-08-jdbc-plaintext/src/main/webapp/WEB-INF/view/plain-login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-08-jdbc-plaintext/src/main/webapp/WEB-INF/view/systems.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-08-jdbc-plaintext/src/test/java/com/luv2code/springsecurity/demo/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-09-jdbc-bcrypt/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-09-jdbc-bcrypt/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-09-jdbc-bcrypt/src/main/java/com/luv2code/springsecurity/demo/config/DemoAppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-09-jdbc-bcrypt/src/main/java/com/luv2code/springsecurity/demo/config/DemoSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-09-jdbc-bcrypt/src/main/java/com/luv2code/springsecurity/demo/config/MySpringMvcDispatcherServletInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-09-jdbc-bcrypt/src/main/java/com/luv2code/springsecurity/demo/config/SecurityWebApplicationInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-09-jdbc-bcrypt/src/main/java/com/luv2code/springsecurity/demo/controller/DemoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-09-jdbc-bcrypt/src/main/java/com/luv2code/springsecurity/demo/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-09-jdbc-bcrypt/src/main/resources/persistence-mysql.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-09-jdbc-bcrypt/src/main/webapp/WEB-INF/view/access-denied.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-09-jdbc-bcrypt/src/main/webapp/WEB-INF/view/fancy-login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-09-jdbc-bcrypt/src/main/webapp/WEB-INF/view/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-09-jdbc-bcrypt/src/main/webapp/WEB-INF/view/leaders.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-09-jdbc-bcrypt/src/main/webapp/WEB-INF/view/plain-login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-09-jdbc-bcrypt/src/main/webapp/WEB-INF/view/systems.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-demo-09-jdbc-bcrypt/src/test/java/com/luv2code/springsecurity/demo/AppTest.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/config/MySpringMvcDispatcherServletInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customer-form.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/config/DemoAppConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="455">
+              <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/model/Customer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/service/CustomerServiceRestClientImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="16" column="71" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/controller/CustomerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="createModuleGroups" value="true" />
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="crm-web-app-rest-client-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="crm-web-app-rest-client-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-42" />
+    <option name="y" value="-18" />
+    <option name="width" value="1941" />
+    <option name="height" value="1107" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="crm-web-app-rest-client-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm-web-app-rest-client-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crm-web-app-rest-client-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm-web-app-rest-client-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crm-web-app-rest-client-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm-web-app-rest-client-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crm-web-app-rest-client-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm-web-app-rest-client-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crm-web-app-rest-client-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm-web-app-rest-client-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springdemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crm-web-app-rest-client-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm-web-app-rest-client-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crm-web-app-rest-client-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm-web-app-rest-client-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crm-web-app-rest-client-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm-web-app-rest-client-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crm-web-app-rest-client-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm-web-app-rest-client-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crm-web-app-rest-client-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm-web-app-rest-client-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crm-web-app-rest-client-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm-web-app-rest-client-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crm-web-app-rest-client-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm-web-app-rest-client-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crm-web-app-rest-client-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm-web-app-rest-client-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crm-web-app-rest-client-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm-web-app-rest-client-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crm-web-app-rest-client-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm-web-app-rest-client-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-crm-rest-demo" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.51" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.51" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="crm-web-app-rest-client-demo:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/crm_web_app_rest_client_demo_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_51_crm-web-app-rest-client-demo" />
+        <option name="HTTP_PORT" value="8090" />
+        <option name="JNDI_PORT" value="1090" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59077" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="crm-web-app-rest-client-demo:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.51" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8090/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_crm-web-app-rest-client-demo" />
+        <option name="HTTP_PORT" value="8090" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59077" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e75852ca-8728-40c8-9878-d08c304a8495" name="Default Changelist" comment="" />
+      <created>1564836669768</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564836669768</updated>
+      <workItem from="1564836674067" duration="2343000" />
+      <workItem from="1568472789537" duration="19000" />
+      <workItem from="1568494914681" duration="56000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2418000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34493926" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Learn" order="5" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32962963" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32962963" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32962963" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32955465" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Web" order="0" side_tool="true" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Learn" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.33360323" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Spring" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="6" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Run" order="9" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32955465" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customer-form.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/service/CustomerServiceRestClientImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="16" column="71" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/controller/CustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/config/MySpringMvcDispatcherServletInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/config/DemoAppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luv2code/springdemo/model/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
